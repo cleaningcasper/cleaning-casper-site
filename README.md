@@ -6,4 +6,4 @@ Plain HTML and CSS. There is no build step. The site is meant to be served by Gi
 
 Photos are free stock images under the Unsplash License, credited in `images/CREDITS.md`. Replace them with the owner's real photos using the same file names and aspect ratios.
 
-Real photos are still to come. Never fill unknown facts in with guesses.
+HTML comments marked `TODO` are facts still unknown: the Google Business Profile link. Real photos are also still to come. Never fill those in with guesses.

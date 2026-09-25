@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cleaningcasper.github.io/cleaning-casper-site/sitemap.xml
