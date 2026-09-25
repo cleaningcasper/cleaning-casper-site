@@ -553,3 +553,13 @@ address { font-style: normal; }
 }
 /* When the floating WhatsApp button is switched on, keep it from covering footer text */
 body:has(.wa-float:not([hidden])) .site-footer { padding-bottom: 6rem; }
+/* On a phone, keep main buttons from extending under the floating control */
+@media (max-width: 27rem) {
+  body:has(.wa-float:not([hidden])) .site-footer .container { padding-right: 4.75rem; }
+  .contact-card .button-wa {
+    max-width: calc(100% - 3.25rem);
+    white-space: normal;
+    text-align: center;
+  }
+  .about-text .actions { max-width: calc(100% - 4.5rem); }
+}

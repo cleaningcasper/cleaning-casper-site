@@ -6,6 +6,4 @@ Plain HTML and CSS. There is no build step. The site is meant to be served by Gi
 
 Photos are free stock images under the Unsplash License, credited in `images/CREDITS.md`. Replace them with the owner's real photos using the same file names and aspect ratios.
 
-HTML comments marked `TODO` are facts still unknown: phone, hours, service area beyond Brownsville, and the Google Business Profile link. Never fill those in with guesses.
-
-The WhatsApp buttons are intentionally hidden and contain the placeholder `WHATSAPP_NUMBER` until the real number is provided.
+HTML comments marked `TODO` are facts still unknown: hours, service area beyond Brownsville, and the Google Business Profile link. Never fill those in with guesses.
