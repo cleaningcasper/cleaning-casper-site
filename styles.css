@@ -121,6 +121,11 @@ p { margin: 0 0 1rem; }
 }
 .nav-list .nav-cta { background: var(--sun); color: var(--text); font-weight: 800; }
 .nav-list .nav-cta:hover { background: var(--sun-dark); color: var(--text); }
+.nav-list .nav-lang {
+  border: 2px solid var(--line);
+  font-size: .95rem;
+}
+.nav-list .nav-lang:hover { border-color: var(--primary); }
 .hero {
   position: relative;
   overflow: hidden;
