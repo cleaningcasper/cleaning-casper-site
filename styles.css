@@ -149,8 +149,8 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
 .nav-toggle-bars::after { top: 7px; }
 @media (max-width: 63.99rem) {
   .logo {
-    flex: 1 1 auto; min-width: 0; max-width: none;
-    font-size: .8rem; line-height: 1.1; white-space: nowrap; gap: .4rem;
+    flex: 0 0 auto; min-width: 0; max-width: none;
+    font-size: .8rem; line-height: 1.1; white-space: nowrap; gap: .4rem; margin-right: .45rem;
   }
   .logo-mark { width: 1.75rem; height: 1.75rem; }
   .header-lang, .nav-toggle { flex: none; }
@@ -168,7 +168,7 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
   .nav-lang-item { display: none; }
 }
 @media (max-width: 389px) {
-  .logo { white-space: normal; }
+  .logo { white-space: normal; flex: 1 1 auto; min-width: 0; }
 }
 @media (min-width: 64rem) {
   .header-lang, .nav-toggle { display: none; }
@@ -286,6 +286,17 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
 @media (max-width: 30rem) {
   .hero .actions, .cta-band .actions { flex-direction: column; align-items: stretch; }
   .hero .actions .button, .cta-band .actions .button { width: 100%; }
+}
+@media (max-width: 48rem) {
+  .hero-inner { padding-top: 0; }
+  .hero-media img {
+    object-position: 34% 0%;
+    transform: scaleX(-1) scale(1.65);
+    transform-origin: 70% 0%;
+  }
+  .hero::after {
+    background: linear-gradient(180deg, rgba(8,42,46,.1) 0%, rgba(8,42,46,.18) 40%, rgba(8,42,46,.75) 62%, rgba(8,42,46,.94) 100%);
+  }
 }
 
 .statement-band { padding-top: var(--section-y); padding-bottom: var(--s-8); text-align: center; }
