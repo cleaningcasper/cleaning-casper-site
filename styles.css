@@ -288,22 +288,47 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
   .hero .actions .button, .cta-band .actions .button { width: 100%; }
 }
 @media (max-width: 48rem) {
-  .hero { min-height: 88svh; }
-  .hero-inner { padding-top: 0; }
+  .hero {
+    min-height: 0;
+    display: block;
+    background: var(--teal-950);
+  }
+  .hero-media {
+    position: relative;
+    inset: auto;
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
   .hero-media img {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
+    max-width: none;
     object-fit: cover;
-    object-position: 34% 0%;
+    object-position: 18% 35%;
     transform: scaleX(-1);
   }
-  .hero::after {
-    background: linear-gradient(180deg, rgba(8,42,46,.06) 0%, rgba(8,42,46,.14) 14%, rgba(8,42,46,.88) 22%, rgba(8,42,46,.94) 100%);
+  .hero::after { content: none; }
+  .hero-inner {
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
   }
-  .hero .eyebrow { text-shadow: 0 1px 2px rgba(8,42,46,.95), 0 0 12px rgba(8,42,46,.9); }
+  .hero h1 { margin-bottom: .75rem; }
+  .hero .lead { line-height: 1.45; }
+  .hero .actions { margin-top: 1rem; }
+  .hero .eyebrow { text-shadow: none; }
+}
+@media (max-width: 30rem) {
+  .hero h1 { font-size: 2rem; }
+}
+@media (min-width: 37.5rem) and (max-width: 48rem) {
+  .hero-media { aspect-ratio: 16 / 10; }
 }
 @media (min-width: 64rem) {
-  body:not(:has(.hero)) main .container {
+  body:not(:has(.hero)) main .container,
+  .site-footer > .container {
     width: min(100% - 2 * var(--gutter), var(--max-wide));
     max-width: none;
   }
