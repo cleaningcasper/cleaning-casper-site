@@ -21,23 +21,29 @@
   <meta name="twitter:title" content="Contact Cleaning Services by Casper | Brownsville, TX">
   <meta name="twitter:description" content="Contact Cleaning Services by Casper in Brownsville, TX for a quote. We serve the Rio Grande Valley daily, 8:00 AM to 6:00 PM. Email cleaningcasper@gmail.com.">
   <meta name="twitter:image" content="https://cleaningcasper.github.io/cleaning-casper-site/images/hero.webp">
-  <meta name="theme-color" content="#0a6c74">
+  <meta name="theme-color" content="#0B3B40">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230a6c74'/%3E%3Cpath fill='%23ffc93c' d='M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-inner">
+    <div class="container--wide header-inner">
       <a class="logo" href="index.html"><svg class="logo-mark" viewBox="0 0 32 32" width="36" height="36" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="9" fill="#0a6c74"/><path fill="#ffc93c" d="M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z"/></svg><span>Cleaning Services <span class="logo-by">by Casper</span></span></a>
-      <nav aria-label="Main">
-        <ul class="nav-list">
+      <a class="header-lang" href="es/contact.html" hreflang="es" lang="es">Español</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="visually-hidden">Menu</span><span class="nav-toggle-bars" aria-hidden="true"></span></button>
+      <nav class="site-nav" aria-label="Main">
+        <ul class="nav-list" id="site-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html" aria-current="page">Contact</a></li>
-          <li><a class="nav-lang" href="es/contact.html" hreflang="es" lang="es">Español</a></li>
-          <li><a class="nav-cta" href="#quote">Get a free quote</a></li>
+          <li class="nav-lang-item"><a class="nav-lang" href="es/contact.html" hreflang="es" lang="es">Español</a></li>
+          <li class="nav-cta-item"><a class="nav-cta" href="#quote">Get a free quote</a></li>
         </ul>
       </nav>
     </div>
@@ -65,7 +71,7 @@
     </section>
     <section class="section">
       <div class="container contact-grid">
-        <div class="contact-card card--teal">
+        <div class="contact-card">
           <span class="card-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
           <h2>Or email us</h2>
           <p class="contact-email"><a href="mailto:cleaningcasper@gmail.com">cleaningcasper@gmail.com</a></p>
@@ -82,7 +88,7 @@
           <p class="contact-email"><a href="tel:+19562037442">(956) 203-7442</a></p>
           <p>Open 7 days a week, 8:00 AM to 6:00 PM.</p>
         </div>
-        <div class="contact-card card--sun">
+        <div class="contact-card">
           <span class="card-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
           <h2>Where we are</h2>
           <address>1608 E. Los Ebanos Blvd, Brownsville, TX 78520</address>
@@ -93,7 +99,7 @@
         </div>
       </div>
     </section>
-    <section class="section section--sky" aria-labelledby="guide-heading">
+    <section class="section" aria-labelledby="guide-heading">
       <div class="container narrow">
         <div class="section-head">
           <p class="kicker">Not sure?</p>
@@ -101,32 +107,32 @@
           <p>Pick the question that matches your situation.</p>
         </div>
         <div class="guide">
-          <details class="guide-item card--teal">
+          <details class="guide-item">
             <summary><span class="card-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/><path d="M17 3l3 3"/></svg></span>Just finished building or remodeling?</summary>
             <div class="guide-body">
               <p>New construction clean-up fits after building or remodeling work. It generally covers construction dust, debris, and cleaning surfaces.</p>
-              <p class="guide-links"><a class="button button-outline" href="services.html#construction">See what it covers<span class="visually-hidden">: New construction clean-up</span></a> <a class="button" href="#quote">Get a free quote<span class="visually-hidden">: New construction clean-up</span></a></p>
+              <p class="guide-links"><a class="button button-outline" href="services.html#construction">See what it covers<span class="visually-hidden">: New construction clean-up</span></a> <a class="button button-sun" href="#quote">Get a free quote<span class="visually-hidden">: New construction clean-up</span></a></p>
             </div>
           </details>
-          <details class="guide-item card--sun">
+          <details class="guide-item">
             <summary><span class="card-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></svg></span>Moving in or moving out?</summary>
             <div class="guide-body">
               <p>Move-in / move-out cleaning fits when a home or unit is changing occupants. It is usually done when the rooms are empty or nearly empty.</p>
-              <p class="guide-links"><a class="button button-outline" href="services.html#move">See what it covers<span class="visually-hidden">: Move-in / move-out cleaning</span></a> <a class="button" href="#quote">Get a free quote<span class="visually-hidden">: Move-in / move-out cleaning</span></a></p>
+              <p class="guide-links"><a class="button button-outline" href="services.html#move">See what it covers<span class="visually-hidden">: Move-in / move-out cleaning</span></a> <a class="button button-sun" href="#quote">Get a free quote<span class="visually-hidden">: Move-in / move-out cleaning</span></a></p>
             </div>
           </details>
-          <details class="guide-item card--coral">
+          <details class="guide-item">
             <summary><span class="card-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1"/><path d="M10 21v-3h4v3"/></svg></span>Running an office or business space?</summary>
             <div class="guide-body">
               <p>Commercial cleaning fits offices and other work spaces. It generally covers floors, surfaces, restrooms, and shared areas you ask us to handle.</p>
-              <p class="guide-links"><a class="button button-outline" href="services.html#commercial">See what it covers<span class="visually-hidden">: Commercial cleaning</span></a> <a class="button" href="#quote">Get a free quote<span class="visually-hidden">: Commercial cleaning</span></a></p>
+              <p class="guide-links"><a class="button button-outline" href="services.html#commercial">See what it covers<span class="visually-hidden">: Commercial cleaning</span></a> <a class="button button-sun" href="#quote">Get a free quote<span class="visually-hidden">: Commercial cleaning</span></a></p>
             </div>
           </details>
-          <details class="guide-item card--sky">
+          <details class="guide-item">
             <summary><span class="card-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 18V7"/><path d="M3 14h18v4"/><path d="M21 14v-3a3 3 0 0 0-3-3h-7v6"/><circle cx="7" cy="11" r="2"/></svg></span>Hosting on Airbnb or another rental site?</summary>
             <div class="guide-body">
               <p>Short-term rental cleaning covers turnovers: cleaning the rental between one guest stay and the next.</p>
-              <p class="guide-links"><a class="button button-outline" href="services.html#airbnb">See what it covers<span class="visually-hidden">: Airbnb / short-term rental cleaning</span></a> <a class="button" href="#quote">Get a free quote<span class="visually-hidden">: Airbnb / short-term rental cleaning</span></a></p>
+              <p class="guide-links"><a class="button button-outline" href="services.html#airbnb">See what it covers<span class="visually-hidden">: Airbnb / short-term rental cleaning</span></a> <a class="button button-sun" href="#quote">Get a free quote<span class="visually-hidden">: Airbnb / short-term rental cleaning</span></a></p>
             </div>
           </details>
         </div>
@@ -137,21 +143,44 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <p class="footer-name">Cleaning Services by Casper</p>
+          <a class="logo" href="index.html"><svg class="logo-mark" viewBox="0 0 32 32" width="36" height="36" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="9" fill="#0a6c74"/><path fill="#ffc93c" d="M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z"/></svg><span>Cleaning Services <span class="logo-by">by Casper</span></span></a>
           <p>New construction clean-up, move-in and move-out cleaning, commercial cleaning, and Airbnb turnovers across the Rio Grande Valley, TX.</p>
         </div>
-        <address>
-          <ul class="contact-list">
-            <li>1608 E. Los Ebanos Blvd, Brownsville, TX 78520</li>
-            <li><a href="mailto:cleaningcasper@gmail.com">cleaningcasper@gmail.com</a></li>
+        <div>
+          <p class="footer-title">Contact</p>
+          <ul>
             <li><a href="tel:+19562037442">(956) 203-7442</a></li>
-            <li>Open 7 days a week, 8:00 AM to 6:00 PM.</li>
+            <li><a href="https://wa.me/19562037442?text=Hi%2C%20I%27d%20like%20a%20cleaning%20quote.">WhatsApp</a></li>
+            <li><a href="mailto:cleaningcasper@gmail.com">cleaningcasper@gmail.com</a></li>
           </ul>
-        </address>
+        </div>
+        <div>
+          <p class="footer-title">Visit</p>
+          <address>
+            <p>1608 E. Los Ebanos Blvd, Brownsville, TX 78520</p>
+            <p>Open 7 days a week, 8:00 AM to 6:00 PM.</p>
+          </address>
+        </div>
+        <div>
+          <p class="footer-title">Pages</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="es/contact.html" hreflang="es" lang="es">Español</a></li>
+          </ul>
+        </div>
       </div>
+      <p class="footer-wordmark" aria-hidden="true">Cleaning Services by Casper</p>
       <p class="legal">&copy; CLEANING SERVICES BY CASPER LLC</p>
     </div>
   </footer>
+  <nav class="action-bar" aria-label="Quick contact">
+    <a href="tel:+19562037442"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.5-1.1a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.8 2z"/></svg>Call</a>
+    <a href="https://wa.me/19562037442?text=Hi%2C%20I%27d%20like%20a%20cleaning%20quote."><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20l1.5-4A8 8 0 1 1 9 19.3z"/><path d="M9 10h6M9 13h4"/></svg>WhatsApp</a>
+    <a class="action-bar-cta" href="#quote">Get a free quote</a>
+  </nav>
   <a class="wa-float" href="https://wa.me/19562037442?text=Hi%2C%20I%27d%20like%20a%20cleaning%20quote." aria-label="Chat with us on WhatsApp"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20l1.5-4A8 8 0 1 1 9 19.3z"/><path d="M9 10h6M9 13h4"/></svg></a>
 </body>
 </html>
