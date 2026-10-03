@@ -408,6 +408,7 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
 .area-band p { color: rgba(255,255,255,.86); }
 .area-list { list-style: none; margin: 0; padding: 0; }
 .area-list li { padding: var(--s-4) 0; border-top: 1px solid var(--line-dark); color: rgba(255,255,255,.88); }
+.area-band a:not(.button) { color: #fff; }
 .area-list a { color: #fff; }
 .area-list .button { margin-top: var(--s-4); }
 @media (min-width: 64rem) { .area-grid { grid-template-columns: 7fr 5fr; gap: var(--s-8); align-items: center; } }
@@ -498,7 +499,7 @@ address { font-style: normal; }
   font-size: .875rem; font-weight: 500; letter-spacing: .01em; line-height: 1.5; color: rgba(255,255,255,.6); max-width: none;
 }
 @media (min-width: 64rem) {
-  .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: var(--s-6); }
+  .footer-grid { grid-template-columns: 1.45fr 1fr 1fr .9fr .95fr; gap: var(--s-6); }
   .site-footer { padding-bottom: 1rem; }
 }
 
