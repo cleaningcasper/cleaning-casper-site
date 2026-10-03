@@ -49,4 +49,40 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/contact.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/contact.html"/>
   </url>
+  <url>
+    <loc>https://cleaningcasper.github.io/cleaning-casper-site/harlingen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaningcasper.github.io/cleaning-casper-site/harlingen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/harlingen.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/harlingen.html"/>
+  </url>
+  <url>
+    <loc>https://cleaningcasper.github.io/cleaning-casper-site/es/harlingen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaningcasper.github.io/cleaning-casper-site/harlingen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/harlingen.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/harlingen.html"/>
+  </url>
+  <url>
+    <loc>https://cleaningcasper.github.io/cleaning-casper-site/mcallen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaningcasper.github.io/cleaning-casper-site/mcallen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/mcallen.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/mcallen.html"/>
+  </url>
+  <url>
+    <loc>https://cleaningcasper.github.io/cleaning-casper-site/es/mcallen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaningcasper.github.io/cleaning-casper-site/mcallen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/mcallen.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/mcallen.html"/>
+  </url>
+  <url>
+    <loc>https://cleaningcasper.github.io/cleaning-casper-site/edinburg.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaningcasper.github.io/cleaning-casper-site/edinburg.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/edinburg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/edinburg.html"/>
+  </url>
+  <url>
+    <loc>https://cleaningcasper.github.io/cleaning-casper-site/es/edinburg.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleaningcasper.github.io/cleaning-casper-site/edinburg.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleaningcasper.github.io/cleaning-casper-site/es/edinburg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleaningcasper.github.io/cleaning-casper-site/edinburg.html"/>
+  </url>
 </urlset>
