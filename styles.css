@@ -243,8 +243,12 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
 .actions, .guide-links, .service-actions { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
 .actions { margin-top: var(--s-6); }
 .card-link, .text-link {
+  display: inline-flex; align-items: center; min-height: 44px; min-width: 44px;
   font-weight: 600; color: var(--teal); text-decoration: underline; text-decoration-thickness: 1px;
   text-underline-offset: .3em;
+}
+main p a:not(.button) {
+  display: inline-block; position: relative; padding-block: 11px; margin-block: -11px;
 }
 .card-link::after, .text-link::after {
   content: "→"; margin-left: .4rem; text-decoration: none; display: inline-block; transition: transform .2s;
@@ -408,8 +412,10 @@ h3 { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); font-weight: 400; letter-spac
 .area-band p { color: rgba(255,255,255,.86); }
 .area-list { list-style: none; margin: 0; padding: 0; }
 .area-list li { padding: var(--s-4) 0; border-top: 1px solid var(--line-dark); color: rgba(255,255,255,.88); }
+.area-list li:has(> a:not(.button)) { padding: 0; }
 .area-band a:not(.button) { color: #fff; }
 .area-list a { color: #fff; }
+.area-list a:not(.button) { display: flex; align-items: center; min-height: 44px; padding: var(--s-4) 0; }
 .area-list .button { margin-top: var(--s-4); }
 @media (min-width: 64rem) { .area-grid { grid-template-columns: 7fr 5fr; gap: var(--s-8); align-items: center; } }
 
@@ -486,7 +492,7 @@ address { font-style: normal; }
 }
 .footer-grid ul { list-style: none; margin: 0; padding: 0; }
 .footer-grid li { margin: 0 0 .65rem; }
-.footer-grid li a { display: inline-flex; align-items: center; min-height: 44px; overflow-wrap: anywhere; }
+.footer-grid li a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; overflow-wrap: anywhere; }
 .footer-grid a[href^="mailto:"] { white-space: nowrap; overflow-wrap: normal; }
 .site-footer .logo, .site-footer .logo-by { color: #fff; }
 .site-footer p { color: rgba(255,255,255,.82); }
